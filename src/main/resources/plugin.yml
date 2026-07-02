@@ -1,0 +1,14 @@
+name: CapSMP
+version: '${version}'
+
+main: me.hina.capSMP.CapSMP
+api-version: '26.1.2'
+load: STARTUP
+
+authors: [ Hina ]
+
+commands:
+  menu:
+    description: Menu Command
+    usage: /menu
+    aliases: [ "mainmenu", "菜單", "主菜單" ]
